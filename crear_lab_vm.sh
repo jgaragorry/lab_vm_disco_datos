@@ -21,7 +21,7 @@ echo "Creando VM Ubuntu..."
 az vm create \
   --resource-group $RG \
   --name $VM_NAME \
-  --image UbuntuLTS \
+  --image Ubuntu2204 \
   --size $SIZE \
   --generate-ssh-keys \
   --tags $TAGS
